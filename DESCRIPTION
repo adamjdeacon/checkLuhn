@@ -1,0 +1,15 @@
+Package: checkLuhn
+Type: Package
+Title: Checks If A Number is Valid Per The Luhn Algorithm
+Version: 0.1.0
+Author: Adam Deacon <adeacon@mango-solutions.com>
+Maintainer: Adam Deacon <adeacon@mango-solutions.com>
+Description: Confirms if the number is Luhn complient
+    Can check if credit card, IMEI number or any other Luhn based number is correct. 
+    For more info see: https://en.wikipedia.org/wiki/Luhn_algorithm
+BugReports: www.github.com/adeacon
+License: BSD
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
