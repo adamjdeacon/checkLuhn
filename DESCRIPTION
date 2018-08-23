@@ -7,8 +7,9 @@ Maintainer: Adam Deacon <adeacon@mango-solutions.com>
 Description: Confirms if the number is Luhn complient
     Can check if credit card, IMEI number or any other Luhn based number is correct. 
     For more info see: https://en.wikipedia.org/wiki/Luhn_algorithm
-BugReports: www.github.com/adeacon
-License: BSD
+URL: https://github.com/adamjdeacon/checkLuhn
+BugReports: https://github.com/adamjdeacon/checkLuhn/issues
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
