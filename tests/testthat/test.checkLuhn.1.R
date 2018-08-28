@@ -10,6 +10,11 @@ test_that("Invalid Number is FALSE", {
   expect_false(checkLuhn(input))
 })
 
+test_that("non-numeric string returns FALSE",{
+  input <- "This should fail"
+  expect_false(checkLuhn(input))
+})
+
 
 test_that("Credit/Debit Card check", {
   # Visa 	4111 1111 1111 1111
@@ -31,15 +36,3 @@ test_that("Credit/Debit Card check", {
     expect_true(checkLuhn(i))
   }
 })
-
-test_that("Invalid IMEI number check",{
-  IMEI <- "990000123471854"
-  expect_true(checkLuhn(IMEI))
-})
-
-
-test_that("Sucessful IMEI number check",{
-  IMEI <- "990000862471854"
-  expect_true(checkLuhn(IMEI))
-})
-
