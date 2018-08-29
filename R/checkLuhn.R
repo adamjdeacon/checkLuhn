@@ -4,16 +4,17 @@
 #' Checks number is luhn compliant
 #' @export
 #' @param number The number to be checked
-#'
+#' @examples
+#' checkLuhn('4111 1111 1111 1111')
 
 checkLuhn <- function(number) {
-  # strip spaces
-  number <- gsub(pattern = " ", replacement = "", number)
-
   # must have at least 2 digits
   if(nchar(number) <= 2) {
     return(FALSE)
   }
+
+  # strip spaces
+  number <- gsub(pattern = " ", replacement = "", number)
 
   # Return FALSE if not a number
   if (!grepl("^[[:digit:]]+$", number)) {

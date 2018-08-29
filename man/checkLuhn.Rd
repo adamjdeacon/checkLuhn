@@ -12,3 +12,6 @@ checkLuhn(number)
 \description{
 Checks number is luhn compliant
 }
+\examples{
+checkLuhn('4111 1111 1111 1111')
+}
