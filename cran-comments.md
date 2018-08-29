@@ -1,3 +1,16 @@
+## Resubmission
+This is a resubmission. In this version I have:
+
+* Converted the TITLE title to title case.
+* Fixed the spelling in DESCRIPTION
+* Added angled brackets to the URL in DESCRIPTION
+* Added an example
+
+Please notes, There are two false positive spelling mistakes:
+
+* IMEI (International Mobile Equipment Identity)
+* Luhn (Named after Hans P. Luhn)
+
 ## Test environment
 * local CentOS 7, R 3.4.3 and R 3.5.0
 * Ubuntu 14.04.5 LTS (on travis-ci), R (rel) 3.5.0, R (prev) 3.4.3, R (dev) 3.6.0
