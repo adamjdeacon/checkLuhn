@@ -15,6 +15,7 @@ r:
   - oldrel
 
 r_packages:
+  - testthat
   - covr
 
 env:
