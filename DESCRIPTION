@@ -4,7 +4,7 @@ Title: Checks If A Number is Valid Per The Luhn Algorithm
 Version: 0.1.0
 Author: Adam Deacon <adam@deaconsworld.org.uk>
 Maintainer: Adam Deacon <adam@deaconsworld.org.uk>
-Description: Confirms if the number is Luhn complient
+Description: Confirms if the number is Luhn complient.
     Can check if credit card, IMEI number or any other Luhn based number is correct. 
     For more info see: https://en.wikipedia.org/wiki/Luhn_algorithm
 URL: https://github.com/adamjdeacon/checkLuhn
