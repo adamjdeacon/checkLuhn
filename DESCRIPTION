@@ -1,7 +1,7 @@
 Package: checkLuhn
 Type: Package
-Title: Checks If A Number is Valid Per The Luhn Algorithm
-Version: 0.1.0
+Title: Checks If a Number Is Valid Using the Luhn Algorithm
+Version: 1.0.0
 Author: Adam Deacon <adam@deaconsworld.org.uk>
 Maintainer: Adam Deacon <adam@deaconsworld.org.uk>
 Description: Confirms if the number is Luhn complient.
