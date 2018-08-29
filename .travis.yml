@@ -5,12 +5,12 @@ cache: packages
 os:
   - linux
   - osx
+    brew_pacakges: libgit2
 
 r:
   - release
   - devel
   - oldrel
-
 
 r_packages:
   - covr
