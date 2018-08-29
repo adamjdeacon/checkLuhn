@@ -5,14 +5,18 @@ cache: packages
 os:
   - linux
   - osx
-    brew_pacakges: libgit2
+
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install libgit2; fi
 
 r:
   - release
+  - devel
   - oldrel
 
 r_packages:
   - covr
+
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
