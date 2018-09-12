@@ -25,13 +25,13 @@ checkLuhn <- function(number) {
   digits <- unlist(strsplit(number, ""))
   digits <- digits[length(digits):1]
 
-  digits[seq(2, length(digits),2 )] <- as.numeric(digits[seq(2, length(digits),2 )]) * 2
+  digits[seq(2, length(digits),2 )] <- as.numeric(digits[seq(2, length(digits), 2 )]) * 2
 
   # gonna do some maths, let's convert it to numbers
   digits <- as.numeric(digits)
 
-  # a digit cannot be two digits, so any that are greater than 9, subtract 9 and make the
-  # world a better place
+  # a digit cannot be two digits, so any that are greater than 9, subtract 9 and
+  # make the world a better place
   digits <- ifelse(digits > 9, digits - 9, digits)
 
   # does the sum divide by 10?

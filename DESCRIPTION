@@ -10,9 +10,10 @@ Description: Confirms if the number is Luhn compliant.
 URL: https://github.com/adamjdeacon/checkLuhn
 BugReports: https://github.com/adamjdeacon/checkLuhn/issues
 Depends: 
-    R (>= 3.1.2)
+    R (>= 3.1.2),
+    readr
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Suggests: testthat
