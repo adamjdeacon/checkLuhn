@@ -35,5 +35,5 @@ checkLuhn <- function(number) {
   digits <- ifelse(digits > 9, digits - 9, digits)
 
   # does the sum divide by 10?
-  sum(digits) %% 10 == 0
+  ((sum(digits) %% 10) == 0)
 }

@@ -2,4 +2,5 @@
 
 export(checkLuhn)
 export(issuer)
-import(readr)
+import(dplyr)
+importFrom(stringr,str_pad)
