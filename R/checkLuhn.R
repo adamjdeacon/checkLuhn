@@ -4,7 +4,6 @@
 #' Checks number is Luhn compliant
 #' @export
 #' @param number The number to be checked
-#' @import utils
 #' @examples
 #' checkLuhn('4111 1111 1111 1111')
 
@@ -26,7 +25,8 @@ checkLuhn <- function(number) {
   digits <- unlist(strsplit(number, ""))
   digits <- digits[length(digits):1]
 
-  digits[seq(2, length(digits),2 )] <- as.numeric(digits[seq(2, length(digits), 2 )]) * 2
+  to_replace <- seq(2, length(digits), 2)
+  digits[to_replace] <- as.numeric(digits[to_replace]) * 2
 
   # gonna do some maths, let's convert it to numbers
   digits <- as.numeric(digits)
