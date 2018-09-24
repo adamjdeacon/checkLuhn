@@ -17,6 +17,9 @@ attacks. Most credit cards and many government identification numbers use the
 algorithm as a simple method of distinguishing valid numbers from mistyped or 
 otherwise incorrect numbers.
 
+The `issuer` function will can return the Card Issuer/Scheme and if that scheme
+is active or not
+
 ## Installation
 
 ``` r
@@ -48,7 +51,17 @@ checkLuhn(input)
 input <- "34000000 0000 009"
 checkLuhn(input)
 [1] TRUE
+
+# Check for card type
+input <- '378282246310005'
+> issuer(input)
+# A tibble: 1 x 2
+  issuer           active
+  <chr>            <chr> 
+1 American Express Yes  
 ```
+
+
 
 ## Getting help
 
