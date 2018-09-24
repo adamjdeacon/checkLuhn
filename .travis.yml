@@ -4,7 +4,9 @@ cache: packages
 
 os:
   - linux
-  - osx
+  #- osx
+
+warnings_are_errors: false
 
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install libgit2; fi

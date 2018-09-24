@@ -2,7 +2,7 @@
 % Please edit documentation in R/checkLuhn.R
 \name{checkLuhn}
 \alias{checkLuhn}
-\title{Checks number is luhn compliant}
+\title{Checks number is Luhn compliant}
 \usage{
 checkLuhn(number)
 }
@@ -10,7 +10,7 @@ checkLuhn(number)
 \item{number}{The number to be checked}
 }
 \description{
-Checks number is luhn compliant
+Checks number is Luhn compliant
 }
 \examples{
 checkLuhn('4111 1111 1111 1111')

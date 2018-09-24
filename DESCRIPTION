@@ -1,18 +1,25 @@
 Package: checkLuhn
 Type: Package
 Title: Checks if a Number is Valid Using the Luhn Algorithm
-Version: 1.0.2
-Author: Adam Deacon <adam@deaconsworld.org.uk>
-Maintainer: Adam Deacon <adam@deaconsworld.org.uk>
+Version: 1.1.0
+Authors@R: c(
+    person("Adam", "Deacon", email = "adam@deaconsworld.org.uk", role = c("aut", "cre")),
+    person("Karina", "Marks", email = "kmarks@mango-solutions.com", role = c("ctb")),
+    person("Owen", "Jones", email = "olj23@bath.ac.uk", role = c("ctb"))
+    )
+Maintainer@R: c(person("Adam","Deacon", email="adam@deaconsworld.org.uk",role = c("aut")))
 Description: Confirms if the number is Luhn compliant.
     Can check if credit card, IMEI number or any other Luhn based number is correct. 
     For more info see: <https://en.wikipedia.org/wiki/Luhn_algorithm>.
 URL: https://github.com/adamjdeacon/checkLuhn
 BugReports: https://github.com/adamjdeacon/checkLuhn/issues
 Depends: 
-    R (>= 3.1.2)
+    R (>= 3.1.2),
+    utils,
+    dplyr,
+    stringr
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Suggests: testthat
