@@ -1,10 +1,12 @@
 language: r
 sudo: false
-#cache: packages
+cache: packages
 
 os:
   - linux
   - osx
+
+warnings_are_errors: false
 
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install libgit2; fi
@@ -15,8 +17,6 @@ r:
   - oldrel
 
 r_packages:
-  - dplyr
-  - stringr
   - testthat
   - covr
 
