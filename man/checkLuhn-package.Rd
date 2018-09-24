@@ -10,5 +10,5 @@ information about the card scheme and issuer
 see the repo at https://github.com/adamjdeacon/checkLuhn.
 }
 \author{
-Adam Deacon (\email{olj23@bath.ac.uk})
+Adam Deacon (\email{adam@deaconsworld.org.uk})
 }

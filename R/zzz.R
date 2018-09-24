@@ -6,7 +6,7 @@
 #'
 #' @docType package
 #' @name checkLuhn-package
-#' @author Adam Deacon (\email{olj23@@bath.ac.uk})
+#' @author Adam Deacon (\email{adam@deaconsworld.org.uk})
 NULL
 
 ## Quiets concerns of R CMD check re variables that appear in pipelines
