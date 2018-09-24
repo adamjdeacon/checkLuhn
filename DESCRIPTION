@@ -1,7 +1,7 @@
 Package: checkLuhn
 Type: Package
 Title: Checks if a Number is Valid Using the Luhn Algorithm
-Version: 1.0.2.9000
+Version: 1.1.0
 Authors@R: c(
     person("Adam", "Deacon", email = "adam@deaconsworld.org.uk", role = c("aut", "cre")),
     person("Karina", "Marks", email = "kmarks@mango-solutions.com", role = c("ctb")),
