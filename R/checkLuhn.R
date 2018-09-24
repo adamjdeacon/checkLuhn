@@ -4,8 +4,16 @@
 #' Checks number is luhn compliant
 #' @export
 #' @param number The number to be checked
+#' @import utils
 #' @examples
 #' checkLuhn('4111 1111 1111 1111')
+NULL
+
+## Quiets concerns of R CMD check re variables that appear in pipelines
+if(getRversion() >= "2.15.1")  {
+  utils::globalVariables(c(".","bin_ranges", "start", "end", "pad_start",
+                           "pad_end","active"))
+}
 
 checkLuhn <- function(number) {
   # must have at least 2 digits

@@ -21,4 +21,4 @@ bin_ranges
 \description{
 A dataset containing the top level BIN ranges for card issuers
 }
-\keyword{datasets}
+\keyword{issuers}

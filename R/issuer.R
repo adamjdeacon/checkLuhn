@@ -2,6 +2,9 @@
 #'
 #' A dataset containing the top level BIN ranges for card issuers
 #'
+#' @name bin_ranges
+#' @docType data
+#' @keywords issuers
 #' @format A data frame with 48 rows:
 #' \describe{
 #'   \item{issuer}{The card issuer}
@@ -12,8 +15,6 @@
 #' }
 #' @source \url{https://www.bincodes.com/bin-list}
 "bin_ranges"
-
-
 
 #'
 #'
@@ -28,7 +29,6 @@
 issuer <- function(number) {
 
   number <- gsub(pattern = " ", replacement = "", number)
-
 
   if(!checkLuhn(number)) {
     return(FALSE)
