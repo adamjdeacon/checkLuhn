@@ -9,8 +9,11 @@ issuer(number)
 \arguments{
 \item{number}{PAN to look up}
 }
+\value{
+A dataframe of the issuer and if the scheme is active
+}
 \description{
-issuer
+Attempts to return the issuer and if the scheme is still active.
 }
 \examples{
 issuer('4111 1111 1111 1111')

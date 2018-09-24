@@ -17,12 +17,14 @@
 "bin_ranges"
 
 #'
-#'
 #' issuer
+#'
 #' @export
+#' @description Attempts to return the issuer and if the scheme is still active.
 #' @importFrom stringr str_pad
 #' @import dplyr
 #' @param number PAN to look up
+#' @return A dataframe of the issuer and if the scheme is active
 #' @examples
 #' issuer('4111 1111 1111 1111')
 
