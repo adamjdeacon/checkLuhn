@@ -4,7 +4,7 @@ cache: packages
 
 os:
   - linux
-  #- osx
+  - osx
 
 warnings_are_errors: false
 
